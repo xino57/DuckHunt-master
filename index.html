@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DuckHunt</title>
+  <link rel="stylesheet" href="script/style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="ecran_canard">
+      <div id="canard"></div>
+      <div id='screen' style='display:none'>
+        <div id="deadScreen">
+          <div id="textWin"></div>
+          <button id="reset">Nouvelle partie</button>
+        </div>
+      </div>
+    </div>
+    <div id="score">
+      <div class="time">
+        <p>Temps écoulé : <span id="time">00:00</span></p> 
+      </div>
+      <div class="duck">
+        <p>Canard : <span id="duck"></span></p>
+      </div>
+      <div class="hunt">
+        <p>Chasseur : <span id="hunt"></span></p>
+      </div>
+    </div>
+  </div>
+  <script src="script/game.js"></script>
+</body>
+</html>
